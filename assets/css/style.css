@@ -1,0 +1,74 @@
+body 
+{
+    background-color: #292929;
+}
+
+
+#items
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-item
+{
+    margin: 15px;
+    width: 90px;
+    height: 150px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+.folder_desc 
+{
+    text-align: left;
+    font-size: 90%;
+    padding-left: 5px;
+    padding-top: 3px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+}
+
+.folder, .file
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 80%;
+    text-align: left; 
+    font-size: 80%;
+    letter-spacing: 1.5px;
+}
+
+.folder 
+{
+    box-shadow: 8px -8px #7A2B31;
+    text-shadow: 0 0 5px #7A2B31; 
+    border: 2px #A53C31 solid;
+    color: #A53C31;
+}
+
+.pdf
+{
+    box-shadow: 0 0 15px #C80000;
+    border: 2px #C80000 solid;
+    color: #C80000;
+}
+
+.txt
+{
+    border: 2px #ADADAD solid;
+    color: #ADADAD;
+}
+
+#text_dir
+{
+    margin: 25px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}

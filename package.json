@@ -1,0 +1,19 @@
+{
+  "name": "Roots",
+  "version": "1.0.0",
+  "description": "file reading",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Timber_man",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "electron": "^4.1.0",
+    "is-directory": "^0.3.1",
+    "jquery": "^3.4.1",
+    "node-cmd": "^3.0.0",
+    "path-type": "^4.0.0"
+  }
+}
