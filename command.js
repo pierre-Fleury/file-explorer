@@ -1,10 +1,10 @@
 var cmd = require('node-cmd');
 var $ = require('jquery')
-let os = require('os')
+let os = require('os');
+const { crash } = require('process');
 var homedir = os.userInfo().homedir
 
-
-
+//test from new pc
 
 //console.log(os.userInfo())
 
