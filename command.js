@@ -4,7 +4,7 @@ let os = require('os');
 const { crash } = require('process');
 var homedir = os.userInfo().homedir
 
-//test from new pc
+//test from pc for thomas
 
 //console.log(os.userInfo())
 
